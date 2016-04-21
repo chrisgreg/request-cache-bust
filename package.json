@@ -1,0 +1,15 @@
+{
+  "name": "superagent-cache-bust",
+  "description": "Implements no cache for superagent on Internet Explorer",
+  "author": "Chris Gregori <chrisgreg23@googlemail.com> (http://www.chrisgregori.co.uk)",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "detectie": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisgreg/superagent-cache-bust"
+  }
+}

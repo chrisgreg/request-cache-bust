@@ -2,12 +2,9 @@
   "name": "request-cache-bust",
   "description": "Implements no cache for requests",
   "author": "Chris Gregori <chrisgreg23@googlemail.com> (http://www.chrisgregori.co.uk)",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "index.js",
   "license": "MIT",
-  "dependencies": {
-    "detectie": "^1.0.0"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/chrisgreg/request-cache-bust"

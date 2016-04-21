@@ -1,25 +1,25 @@
-# superagent-cache-bust
--------------
+# request-cache-bust
 -------------
 
 ## What?
 
-Disable caching for the superagent package.
-Will cache bust on Internet Explorer due to the browsers aggressive caching stategy.
+Disable caching for request modules.
+
+Will cache bust on Internet Explorer with current date due to the browsers aggressive caching stategy.
 
 ## How?
 
-# Installation
+### Installation
 
 ```
-$ npm install --save superagent-cache-bust
+$ npm install --save request-cache-bust
 ```
 
-# Example usage:
+### Example usage:
 
 ```
 var request = require('request')
-var noCache = require('superagent-cache-bust')
+var noCache = require('request-cache-bust')
 
 request.get('/url')
     .use(noCache)
